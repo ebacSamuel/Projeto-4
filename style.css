@@ -48,3 +48,9 @@ footer {
     color: #B6AEA0;
 }
 
+@media (max-width: 641px){
+    .carousel {
+        width: 100%;
+    }
+}
+
