@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ept-BRn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+        <h1 class="navbar-brand">
+            <i class="bi bi-controller"></i>
+            O rapaz que <span>estilhaçou o tempo</span></h1>
+        <nav class="navbar justify-content-end">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#skins">Skins</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#lore">Lore</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="skins" data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" >
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img src="images/ekko1.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h2>Ekko true Damage</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img src="images/ekko2.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h2>Skin padrao</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img src="images/ekko3.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h2>Ekko Projeto</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img src="images/ekko4.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h2>Ekko gostosuras ou travessuras</h2>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span> 
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span> 
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    </div>
+                </div>
+        </section>
+        <section id="lore" class="py-5" data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="images/Ekko-Fogolume-lol-scaled.jpeg" alt="">
+                    </div>
+                    <div class="col-md-4" id="Lore">
+                        <h2>LEIA A BIOGRAFIA DE EKKO</h2>
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal-biografia">Leia aqui</button>
+                        <div class="modal" id="modal-biografia">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4>Biografia</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Foi um daqueles dias que pareciam durar uma semana.
+
+                                            Para Ekko, isso servia tanto literal quanto metaforicamente. Algo tinha dado errado e levou tempo demais para colocar de volta no lugar. Primeiro que Ajuna quase havia se matado tentando escalar o Velho Faminto. O jovem queria tão desesperadamente ser igual a Ekko que saltou para a lateral da torre do relógio, no centro da fossa, antes que qualquer de seus amigos pudesse impedi-lo. Foi o primeiro salto complicado que quase levou a vida dele. Ainda bem que Ekko estava com o Revo-Z ativado. Ele ouviu o grito ensurdecedor do menino em queda livre para a morte dezoito vezes antes de perceber como e onde interromper a queda, salvando sua vida.
+                                            
+                                            Foi aí que — enquanto fuçava em um depósito de sucata do Clã Ferros para pegar umas peças de máquina — uma gangue particularmente agressiva de vigionautas o cercou. Daqueles grandões, com todo tipo de aprimoramento que os deixavam mais feios do que de costume. Ekko surpreendeu-se com sua velocidade, mas não muito com o fato de que eles atiravam para matar. Os piltes e seus capangas não ligavam muito para as vidas que quem morava na fossa — como ele. Ainda bem que o Revo-Z estava lá para tirá-lo de enrascadas aparentemente inescapáveis como esta. Após algumas dúzias de rebobinadas, ele mudou de tática e empunhou sua invenção mais recente: o Puxaluz. Ele deveria explodir com um clarão estonteante e atrair ao centro qualquer coisa que não estivesse muito fixa em seu lugar.
+                                            
+                                            Só que o aparelho não funcionou; quer dizer, não como deveria. Ele explodiu — e foi aí que as coisas ficaram interessantes. Diferente da maioria das invenções que explodiam, a detonação azul e quente congelou no meio de sua expansão. Colunas ondulantes de energia azul se movimentavam a partir do epicentro. Os estilhaços do disco retorciam-se a velocidade de lesma em trajeto que, caso estivesse em velocidade normal de explosão, seria potencialmente letal. Até mesmo o clarão esférico estava parado no espaço.
+                                            
+                                            Aí ficou ainda mais interessante. A explosão implodiu, voltando à forma portátil do Puxaluz, refazendo o trajeto de volta à palma da mão de Ekko — e sem ter esquentado.
+                                            
+                                            "Legal", pensou ele. Ele rebobinou o momento para que pudesse arremessá-lo nos vigionautas algumas vezes — com propósitos científicos, é claro.
+                                            
+                                            Quando Ekko chegou em casa, seu corpo estava cansado, mas sua mente permanecia alerta. O apartamento era funcional; era pouca mobília e ainda menos decoração. Seu quarto era um canto separado do resto por uma cortina, repleto de livros esfarrapados, peças reaproveitadas de tecnologia e espaços para esconder o Revo-Z e o Puxaluz. Hoje foi um dos raros dias em que ambos os seus pais haviam chegado antes do costume, e ele tinha algo para lhes dizer.
+                                            
+                                            — Mãe, pai. Ele treinou com seu reflexo, que olhava de volta para ele a partir da superfície brilhosa e cilíndrica do Revo-Z. — Eu não vou tentar uma vaga nos clãs de Altacasta ou numa escola esnobe de piltes. Vou ficar aqui com vocês e com meus amigos. Nunca vou virar as costas para Zaun.
+                                            
+                                            Suas palavras eram cheias daquela confiança que existe em estar num apartamento vazio, em que somente as paredes e os reflexos podem responder. E eles responderam com silêncio.
+                                            
+                                            Ekko ouviu o tilintar das chaves, abafado pela porta frontal. Sem um segundo a desperdiçar, Ekko escondeu o Revo-Z sob a mesa e jogou um pano preto por cima dele. Não queria que seus pais se preocupassem com as escapadas e seu dispositivo hextec instável de manipulação temporal.
+                                            
+                                            A porta se abriu e os pais de Ekko voltaram para casa pela primeira vez naquela noite. Aos olhos do filho, pareciam-se cada vez mais com estranhos — seus trabalhos envelhecendo-os ainda mais desde a última semana que os viu juntos. A rotina dos dois era bem previsível. Chegavam em casa, faziam uma refeição simples com a remuneração do dia e guardavam o resto do dinheiro para os impostos e subornos. Depois adormeciam em suas cadeiras — queixos apoiados no peito — até que Ekko vinha tirar suas botas e levá-los para a cama.
+                                            
+                                            Suas olheiras eram tão pesadas quanto o seu cansaço. Preso sob o braço da mãe havia um pequeno pacote embrulhado em papel, fechado nas laterais com barbante.
+                                            
+                                            — Oi, meu pequeno gênio. Sua mãe gastava até a energia que não podia para tentar dar vida às palavras. Contudo, sua expressão naquele momento de leveza ao ver seu filho sentado à mesa, esperando, era impossível de fingir.
+                                            
+                                            — Oi, mãe. Oi, pai. Havia muito tempo desde que sentaram-se os três à mesa ao mesmo tempo. Silenciosamente, ele se repreendeu por não ter dito algo muito importante.
+                                            
+                                            Seu pai sorria de orgulho; depois fingiu estar zangado ao bagunçar o moicano do filho. Ekko quase não conseguiu se lembrar da época em que seu pai não parecia tão velho, antes que seu cabelo ficasse ralo e que as rugas ficassem cada vez mais profundas.
+                                            
+                                            — Achei que tivesse falado para cortar esse seu cabelo — disse o pai. — Ele vai dar muita bandeira nas academias de Piltover. Só no Distrito das Fábricas você pode andar desse jeito. Eles aceitam qualquer coisa lá. Só que você não é qualquer coisa. Como estão indo as inscrições?
+                                            
+                                            Essa era a hora. Ekko sentiu as palavras enfileirando-se para serem faladas. A esperança nos olhos de seu pai lhe fizeram hesitar.
+                                            
+                                            Sua mãe preencheu o momento vazio antes que Ekko pudesse fazê-lo.
+                                            
+                                            — Trouxemos algo para você. Ela colocou o pacote marrom sobre a mesa. Eles se aproximaram com as cadeiras para assistir Ekko apanhar e desfazer os nós de barbante, depois enfileirá-los em linhas retas ao seu lado. Ele desembrulhou o papel sem um rasgo sequer. Em seu centro havia um pequeno filão de pão doce, glaceado com mel e frutas secas caramelizadas. Ele havia sido feito por Elline, uma das melhores padeiras de Zaun — e muito careira, também. Ekko e seus amigos costumavam surrupiar suas sobremesas dos ricaços que podiam pagar o alto preço delas sem hesitar.
+                                            
+                                            Ele levantou o rosto para ver a reação dos pais. Os olhos deles brilhavam. — Isto é coisa demais, — ele disse — nós precisamos de carne e comida de verdade, não doces.
+                                            
+                                            — Nós nunca nos esqueceríamos do dia do seu nome, — disse o pai com uma gargalhada breve — mas parece que você se esqueceu.
+                                            
+                                            Ekko havia perdido o fio da meada de que dia realmente era. Ainda assim, era um presente muito extravagante. Especialmente porque ele estava prestes a estilhaçar toda a esperança colocada nele. A culpa se acumulou em sua garganta. — O senhorio vai querer nossas cabeças se atrasarmos o aluguel de novo.
+                                            
+                                            — Deixe que a gente se preocupe com isso. Você merece algo legal. — disse a mãe. — Vá em frente. Você pode comer bolo na janta uma vez no ano.
+                                            
+                                            — E vocês? Vão comer o que?
+                                            
+                                            — Não estou com fome. — disse ela.
+                                            
+                                            — Eu comi no trabalho, — mentiu o pai — queijo e carne de Piltover. Coisas bem legais.
+                                            
+                                            Eles assistiram o filho morder um pedaço bem pequeno de bolo. Ele era doce e amanteigado; os farelos se prenderam aos dedos. O sabor era rico e se prendia à língua. Ekko prosseguiu para dividir o bolo em três pedaços, mas sua mãe recusou com um aceno. Sua voz suave cantarolou a melodia alegre do dia do nome e foi então que ele percebeu que não haveria divisão. O bolo era o presente que seus pais lhe deram.
+                                            
+                                            O pai teria cantado junto se já não tivesse caído no sono, de corpo mole em sua cadeira e queixo encostado no peito. Ekko virou-se para a mãe; seus olhos tremulantes de sono, embalada pela melodia.
+                                            
+                                            Um futuro que Ekko considerou brevemente seria a vida no Distrito das Fábricas, com um salário baixo para que outra pessoa da cidade tivesse benefícios e glória. A ideia fazia seu estômago embrulhar. Ele se lembrou de fragmentos de conversas, pedaços capturados pela sua audição infantil, sussurros de seus pais falando de invenções e o acesso aos clãs. Ideias que esperavam mudar o mundo e contribuir para um futuro ainda não escrito pelo nascimento de seu filho. Ekko sabia que eles o viam como a única esperança, mas ele amava viver em Zaun. Se fizesse como eles queriam, quem tomaria conta deles ou de seus amigos?
+                                            
+                                            Ele não poderia acabar com seus sonhos. Não hoje, no dia de seu nome. Quem sabe amanhã.
+                                            
+                                            Ekko não comeu nada além da primeira mordida de seu bolo. Em vez disso, ele empunhou o Revo-Z. Seu lar se estilhaçou em filamentos rodopiantes de poeira colorida. O ruído da vida lá fora virou silêncio absoluto. O momento se quebrou, rodeando-o em um vórtice iluminado.
+                                            
+                                            Quando os fragmentos do futuro se remontaram no passado, os pais de Ekko haviam chegado em casa pela segunda vez naquela noite. E depois uma terceira. Uma quarta. Uma quinta. Uma sexta, e assim por diante.
+                                            
+                                            Ekko não alterava nada nas vezes que voltava; a luz nos olhos de sua mãe, o orgulho no sorriso de seu pai ao adormecer. Mesmo assim ele enfrentou o apanhar do sono para viver aqueles momentos roubados para sempre até que, finalmente, deixou a doce voz de sua mãe e o acolhimento do apartamento pequeno em que viviam colocá-lo para dormir.
+                                            
+                                            Foi um daqueles dias que pareciam durar uma semana.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-danger" data-bs-dismiss="modal">Sair</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>LEIA A HISTORIA DE EKKO</h2>
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal-historia">Leia aqui</button>
+                        <div class="modal" id="modal-historia">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        Historia sobre ekko
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Acalanto</h2>
+                                        <p>
+                                            Foi um daqueles dias que pareciam durar uma semana.
+        
+        Para Ekko, isso servia tanto literal quanto metaforicamente. Algo tinha dado errado e levou tempo demais para colocar de volta no lugar. Primeiro que Ajuna quase havia se matado tentando escalar o Velho Faminto. O jovem queria tão desesperadamente ser igual a Ekko que saltou para a lateral da torre do relógio, no centro da fossa, antes que qualquer de seus amigos pudesse impedi-lo. Foi o primeiro salto complicado que quase levou a vida dele. Ainda bem que Ekko estava com o Revo-Z ativado. Ele ouviu o grito ensurdecedor do menino em queda livre para a morte dezoito vezes antes de perceber como e onde interromper a queda, salvando sua vida.
+        
+        Foi aí que — enquanto fuçava em um depósito de sucata do Clã Ferros para pegar umas peças de máquina — uma gangue particularmente agressiva de vigionautas o cercou. Daqueles grandões, com todo tipo de aprimoramento que os deixavam mais feios do que de costume. Ekko surpreendeu-se com sua velocidade, mas não muito com o fato de que eles atiravam para matar. Os piltes e seus capangas não ligavam muito para as vidas que quem morava na fossa — como ele. Ainda bem que o Revo-Z estava lá para tirá-lo de enrascadas aparentemente inescapáveis como esta. Após algumas dúzias de rebobinadas, ele mudou de tática e empunhou sua invenção mais recente: o Puxaluz. Ele deveria explodir com um clarão estonteante e atrair ao centro qualquer coisa que não estivesse muito fixa em seu lugar.
+        
+        Só que o aparelho não funcionou; quer dizer, não como deveria. Ele explodiu — e foi aí que as coisas ficaram interessantes. Diferente da maioria das invenções que explodiam, a detonação azul e quente congelou no meio de sua expansão. Colunas ondulantes de energia azul se movimentavam a partir do epicentro. Os estilhaços do disco retorciam-se a velocidade de lesma em trajeto que, caso estivesse em velocidade normal de explosão, seria potencialmente letal. Até mesmo o clarão esférico estava parado no espaço.
+        
+        Aí ficou ainda mais interessante. A explosão implodiu, voltando à forma portátil do Puxaluz, refazendo o trajeto de volta à palma da mão de Ekko — e sem ter esquentado.
+        
+        "Legal", pensou ele. Ele rebobinou o momento para que pudesse arremessá-lo nos vigionautas algumas vezes — com propósitos científicos, é claro.
+        
+        Quando Ekko chegou em casa, seu corpo estava cansado, mas sua mente permanecia alerta. O apartamento era funcional; era pouca mobília e ainda menos decoração. Seu quarto era um canto separado do resto por uma cortina, repleto de livros esfarrapados, peças reaproveitadas de tecnologia e espaços para esconder o Revo-Z e o Puxaluz. Hoje foi um dos raros dias em que ambos os seus pais haviam chegado antes do costume, e ele tinha algo para lhes dizer.
+        
+        — Mãe, pai. Ele treinou com seu reflexo, que olhava de volta para ele a partir da superfície brilhosa e cilíndrica do Revo-Z. — Eu não vou tentar uma vaga nos clãs de Altacasta ou numa escola esnobe de piltes. Vou ficar aqui com vocês e com meus amigos. Nunca vou virar as costas para Zaun.
+        
+        Suas palavras eram cheias daquela confiança que existe em estar num apartamento vazio, em que somente as paredes e os reflexos podem responder. E eles responderam com silêncio.
+        
+        Ekko ouviu o tilintar das chaves, abafado pela porta frontal. Sem um segundo a desperdiçar, Ekko escondeu o Revo-Z sob a mesa e jogou um pano preto por cima dele. Não queria que seus pais se preocupassem com as escapadas e seu dispositivo hextec instável de manipulação temporal.
+        
+        A porta se abriu e os pais de Ekko voltaram para casa pela primeira vez naquela noite. Aos olhos do filho, pareciam-se cada vez mais com estranhos — seus trabalhos envelhecendo-os ainda mais desde a última semana que os viu juntos. A rotina dos dois era bem previsível. Chegavam em casa, faziam uma refeição simples com a remuneração do dia e guardavam o resto do dinheiro para os impostos e subornos. Depois adormeciam em suas cadeiras — queixos apoiados no peito — até que Ekko vinha tirar suas botas e levá-los para a cama.
+        
+        Suas olheiras eram tão pesadas quanto o seu cansaço. Preso sob o braço da mãe havia um pequeno pacote embrulhado em papel, fechado nas laterais com barbante.
+        
+        — Oi, meu pequeno gênio. Sua mãe gastava até a energia que não podia para tentar dar vida às palavras. Contudo, sua expressão naquele momento de leveza ao ver seu filho sentado à mesa, esperando, era impossível de fingir.
+        
+        — Oi, mãe. Oi, pai. Havia muito tempo desde que sentaram-se os três à mesa ao mesmo tempo. Silenciosamente, ele se repreendeu por não ter dito algo muito importante.
+        
+        Seu pai sorria de orgulho; depois fingiu estar zangado ao bagunçar o moicano do filho. Ekko quase não conseguiu se lembrar da época em que seu pai não parecia tão velho, antes que seu cabelo ficasse ralo e que as rugas ficassem cada vez mais profundas.
+        
+        — Achei que tivesse falado para cortar esse seu cabelo — disse o pai. — Ele vai dar muita bandeira nas academias de Piltover. Só no Distrito das Fábricas você pode andar desse jeito. Eles aceitam qualquer coisa lá. Só que você não é qualquer coisa. Como estão indo as inscrições?
+        
+        Essa era a hora. Ekko sentiu as palavras enfileirando-se para serem faladas. A esperança nos olhos de seu pai lhe fizeram hesitar.
+        
+        Sua mãe preencheu o momento vazio antes que Ekko pudesse fazê-lo.
+        
+        — Trouxemos algo para você. Ela colocou o pacote marrom sobre a mesa. Eles se aproximaram com as cadeiras para assistir Ekko apanhar e desfazer os nós de barbante, depois enfileirá-los em linhas retas ao seu lado. Ele desembrulhou o papel sem um rasgo sequer. Em seu centro havia um pequeno filão de pão doce, glaceado com mel e frutas secas caramelizadas. Ele havia sido feito por Elline, uma das melhores padeiras de Zaun — e muito careira, também. Ekko e seus amigos costumavam surrupiar suas sobremesas dos ricaços que podiam pagar o alto preço delas sem hesitar.
+        
+        Ele levantou o rosto para ver a reação dos pais. Os olhos deles brilhavam. — Isto é coisa demais, — ele disse — nós precisamos de carne e comida de verdade, não doces.
+        
+        — Nós nunca nos esqueceríamos do dia do seu nome, — disse o pai com uma gargalhada breve — mas parece que você se esqueceu.
+        
+        Ekko havia perdido o fio da meada de que dia realmente era. Ainda assim, era um presente muito extravagante. Especialmente porque ele estava prestes a estilhaçar toda a esperança colocada nele. A culpa se acumulou em sua garganta. — O senhorio vai querer nossas cabeças se atrasarmos o aluguel de novo.
+        
+        — Deixe que a gente se preocupe com isso. Você merece algo legal. — disse a mãe. — Vá em frente. Você pode comer bolo na janta uma vez no ano.
+        
+        — E vocês? Vão comer o que?
+        
+        — Não estou com fome. — disse ela.
+        
+        — Eu comi no trabalho, — mentiu o pai — queijo e carne de Piltover. Coisas bem legais.
+        
+        Eles assistiram o filho morder um pedaço bem pequeno de bolo. Ele era doce e amanteigado; os farelos se prenderam aos dedos. O sabor era rico e se prendia à língua. Ekko prosseguiu para dividir o bolo em três pedaços, mas sua mãe recusou com um aceno. Sua voz suave cantarolou a melodia alegre do dia do nome e foi então que ele percebeu que não haveria divisão. O bolo era o presente que seus pais lhe deram.
+        
+        O pai teria cantado junto se já não tivesse caído no sono, de corpo mole em sua cadeira e queixo encostado no peito. Ekko virou-se para a mãe; seus olhos tremulantes de sono, embalada pela melodia.
+        
+        Um futuro que Ekko considerou brevemente seria a vida no Distrito das Fábricas, com um salário baixo para que outra pessoa da cidade tivesse benefícios e glória. A ideia fazia seu estômago embrulhar. Ele se lembrou de fragmentos de conversas, pedaços capturados pela sua audição infantil, sussurros de seus pais falando de invenções e o acesso aos clãs. Ideias que esperavam mudar o mundo e contribuir para um futuro ainda não escrito pelo nascimento de seu filho. Ekko sabia que eles o viam como a única esperança, mas ele amava viver em Zaun. Se fizesse como eles queriam, quem tomaria conta deles ou de seus amigos?
+        
+        Ele não poderia acabar com seus sonhos. Não hoje, no dia de seu nome. Quem sabe amanhã.
+        
+        Ekko não comeu nada além da primeira mordida de seu bolo. Em vez disso, ele empunhou o Revo-Z. Seu lar se estilhaçou em filamentos rodopiantes de poeira colorida. O ruído da vida lá fora virou silêncio absoluto. O momento se quebrou, rodeando-o em um vórtice iluminado.
+        
+        Quando os fragmentos do futuro se remontaram no passado, os pais de Ekko haviam chegado em casa pela segunda vez naquela noite. E depois uma terceira. Uma quarta. Uma quinta. Uma sexta, e assim por diante.
+        
+        Ekko não alterava nada nas vezes que voltava; a luz nos olhos de sua mãe, o orgulho no sorriso de seu pai ao adormecer. Mesmo assim ele enfrentou o apanhar do sono para viver aqueles momentos roubados para sempre até que, finalmente, deixou a doce voz de sua mãe e o acolhimento do apartamento pequeno em que viviam colocá-lo para dormir.
+        
+        Foi um daqueles dias que pareciam durar uma semana.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-danger" data-bs-dismiss="modal">Sair</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section id="quebra">
+                <div class="row py-5">
+                    <div class="col-md-12">
+                        <h1 class="text-center">Habilidades</h1>
+                    </div>
+                </div>
+        </div>    
+        </section>
+        <section id="habilidades" class="py-5" data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <div class="container">
+                <div class="row">
+                    <aside class="col-md-4">
+                        <nav class="nav nav-phills flex-column">
+                            <ul>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#passiva" class="fw-bold text-start nav-link active">Ressonancia Revo-z</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#giratempo" class="fw-bold text-start nav-link ">GiraTempo</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#convergencia" class="fw-bold text-start nav-link ">Convergencia Paralela</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#mergulho" class="fw-bold text-start nav-link ">Mergulho Fasico</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#cronoquebra" class="fw-bold text-start nav-link ">Cronoquebra</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-8">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="passiva">
+                                <h2 class="text-center"> Ressonancia REVO-Z</h2>
+                                <h3 class="text-center pb-3">Passiva</h3>
+                                <video src="video/passiva.mp4" class="d-block w-100 rounded" autoplay loop></video>
+                            </div>
+                            <div class="tab-pane" id="giratempo">
+                                <h2 class="text-center"> GiraTempo</h2>
+                            <h3 class="text-center pb-3">Q</h3>
+                            <video src="video/Q.mp4" class="d-block w-100 rounded" autoplay loop></video>
+                            </div>
+                            <div class="tab-pane" id="convergencia">
+                                <h2 class="text-center"> Convergencia Paralela</h2>
+                            <h3 class="text-center pb-3">W</h3>
+                            <video src="video/W.mp4" class="d-block w-100 rounded" autoplay loop></video>
+                            </div>
+                            <div class="tab-pane" id="mergulho">
+                                <h2 class="text-center"> Mergulho Fasico</h2>
+                            <h3 class="text-center pb-3">E</h3>
+                            <video src="video/E.mp4" class="d-block w-100 rounded" autoplay loop></video>
+                            </div>
+                            <div class="tab-pane" id="cronoquebra">
+                                <h2 class="text-center"> Cronoquebra</h2>
+                            <h3 class="text-center pb-3">R</h3>
+                            <video src="video/R.mp4" class="d-block w-100 rounded" autoplay loop></video>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer fs-5">
+        &copy; Todos direitos reservados
+
+    </footer>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

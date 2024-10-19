@@ -1,0 +1,50 @@
+header {
+    background-color: #474747ec;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #121415;
+    color: #ccc;
+}
+#cabecalho .nav .nav-link {
+    color: #B6AEA0;
+}
+
+.modal .modal-body,
+.modal .modal-header,
+.modal .modal-footer {
+    background-color: #121415;
+    color: #B6AEA0;
+}
+
+#lore {
+    background-color: #121415;
+    color: #B6AEA0;
+}
+
+#sair-modal {
+    cursor: pointer;
+}
+
+#habilidades,
+#habilidades button {
+    background-color: #0A1428;
+    color: #B6AEA0;
+}
+
+#quebra {
+    color: #000;
+    background-color: #fff;
+}
+
+#habilidades button.active {
+    background-color: #121415;
+    color: #ccc;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #121415;
+    color: #B6AEA0;
+}
+
